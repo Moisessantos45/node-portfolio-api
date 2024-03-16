@@ -1,0 +1,310 @@
+[
+  {
+    "title": "ImageOptiWeb",
+    "description": "Optimizer and converter of images to WebP format for faster loading and saving space without compromising quality. Our advanced compression technology ensures that your images are lighter, maintaining sharpness and details.",
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node js",
+      "JavaScript"
+    ],
+    "caracteristicas": [
+      "Quick conversion to WebP format.",
+      "Efficient compression without loss of quality.",
+      "Easily generate optimized URLs for sharing.",
+      "Simultaneous upload of multiple images.",
+      "Download the optimized images in a ZIP file.",
+      "Support for multiple simultaneous users."
+    ],
+    "image": "https://i.ibb.co/Xz03pqq/upload-img-2.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/SdPfBgm/upload-img-1.webp",
+      "https://i.ibb.co/m5Lpp1R/upload-img-3.webp",
+      "https://i.ibb.co/n8NSxcV/upload-img-4.webp"
+    ],
+    "link": "https://api-img-bb-convert-links-frontend.vercel.app",
+    "id": "f9d7f26f-d289-42c3-b4f1-b500ba77eacd",
+    "createdAt": "2024-3-8 16:9"
+  },
+  {
+    "title": "DocExtract",
+    "description": "A website specializing in a variety of document and graphic processing services. The site offers solutions for extracting text from PDF and Word files, converting SVG graphics to image formats, and extracting images from Word documents.",
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node js",
+      "TypeScript"
+    ],
+    "caracteristicas": [
+      "Text extraction from PDF and Word files.",
+      "Conversion of SVG graphics to image formats.",
+      "Conversion of images to PDF and Word files.",
+      "Extraction of images from Word documents.",
+      "Simultaneous upload of multiple files.",
+      "Download of processed files in a ZIP archive.",
+      "Support for multiple simultaneous users."
+    ],
+    "image": "https://i.ibb.co/2tLBznB/extractor-1.png",
+    "imagenesProyect": [
+      "https://i.ibb.co/hHV11gV/extractor-2.webp",
+      "https://i.ibb.co/0mFv7Dm/extractor-3.webp",
+      "https://i.ibb.co/4tLC181/extractor-4.webp",
+      "https://i.ibb.co/0Vt9G0Z/extractor-5.webp",
+      "https://i.ibb.co/pzYQWys/extractor-6.webp",
+      "https://i.ibb.co/SJktMZp/extractor-7.webp",
+      "https://i.ibb.co/c2ys2Nv/extractor-8.webp",
+      "https://i.ibb.co/L92J1Nj/extractor-9.webp"
+    ],
+    "link": "https://proyect-multiservices.vercel.app",
+    "id": "5f5216a7-2dfd-419b-8771-4afadefbca12",
+    "createdAt": "2024-3-8 19:24"
+  },
+  {
+    "title": "UnderowordLiellaNovels",
+    "description": "This site offers a wide variety of light novels for your enjoyment, it also provides a complete and easy-to-use administration panel. With the panel, you can upload, modify, and delete novels, manage users, change the content of the website, and adjust the site settings to your liking.",
+    "caracteristicas": [
+      "Upload, modify, and delete novels.",
+      "Publication of light novels.",
+      "Administration panel.",
+      "User management.",
+      "Management of administrators and collaborators.",
+	  "Upload files to Mega.",
+	  "Upload images to the ImageOptiWeb Api.",
+	  "Route protection.",
+	  "Activity notifications on the website via email to the group creator.",
+	  "Permission management for site members.",
+	  "Recommendation system.",
+	  "Session timer."
+    ],
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node js",
+      "JavaScript",
+      "MongoDb",
+      "JWT",
+      "MUI/UI React"
+    ],
+    "image": "https://i.ibb.co/jbY9Gxr/underword-1.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/B2XyqYJ/underword-2.webp",
+      "https://i.ibb.co/tK5ND75/underword-3.webp",
+      "https://i.ibb.co/NYK16V3/underword-4.webp",
+      "https://i.ibb.co/Kxnc0cs/underword-5.webp",
+      "https://i.ibb.co/k4g7Pxy/underword-6.webp",
+      "https://i.ibb.co/Hp3Tqtx/underword-7.webp",
+      "https://i.ibb.co/Dz3fZY7/underword-8.webp",
+      "https://i.ibb.co/SyQDZsN/underword-9.webp",
+      "https://i.ibb.co/PFPcfJ2/underword-10.webp",
+      "https://i.ibb.co/64LTSDy/underword-11.webp",
+      "https://i.ibb.co/rGrH9G6/underword-12.webp",
+	  "https://i.ibb.co/bJBrQnB/underword-13.webp",
+	  "https://i.ibb.co/2M972Dp/underword-14.webp",
+	  "https://i.ibb.co/dcmnnkN/underword-15.webp"
+    ],
+    "link": "https://underword-liella-novels.vercel.app/",
+    "id": "658bdcdc-b4e4-487d-a64d-40aa712a885a",
+    "createdAt": "2024-3-8 19:45"
+  },
+  {
+    "title": "ShigastuTranslations",
+    "description": "This site offers a wide variety of light novels for your enjoyment, it also provides a complete and easy-to-use administration panel. With the panel, you can upload, modify, and delete novels, manage users, change the content of the website, and adjust the site's settings to your liking.",
+    "caracteristicas": [
+      "Upload, modify and delete novels",
+      "Publication of light novels",
+      "Administration panel",
+      "User management",
+      "Administrators and contributors management",
+      "Real-time updates",
+      "Real-time notifications",
+      "Session verification",
+      "Protected routes"
+    ],
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node Js",
+      "TypeScript",
+      "MongoDb",
+      "JWT",
+      "MUI/UI React",
+      "Socket IO"
+    ],
+    "image": "https://i.ibb.co/SVGfZ7h/shigatsu-1.png",
+    "imagenesProyect": [
+      "https://i.ibb.co/SVGfZ7h/shigatsu-1.png",
+      "https://i.ibb.co/r7Wbmqw/shigatsu-2.webp",
+      "https://i.ibb.co/3p8QVXP/shigatsu-3.webp",
+      "https://i.ibb.co/tm3KYDf/shigatsu-4.webp",
+      "https://i.ibb.co/kXzDprL/shigatsu-5.webp",
+      "https://i.ibb.co/sCdGpMf/shigatsu-6.webp",
+      "https://i.ibb.co/RvCgc4g/shigatsu-7.webp",
+      "https://i.ibb.co/nw0HxS9/shigatsu-8.webp"
+    ],
+    "link": "https://shigatsu-translations.vercel.app",
+    "id": "5e74525d-5b6e-4cb4-a1ea-97070ec9702b",
+    "createdAt": "2024-3-15 19:5"
+  },
+  {
+    "title": "ChatVis",
+    "description": "Discover a new way to understand your conversations in real time. My site offers advanced analysis and detailed visualizations to explore the flow of messages, identify key themes, and simulate interactions. With innovative features like the keyword cloud and the use of artificial intelligence, our tool provides you with a complete view of your chats in an instant.",
+    "caracteristicas": [
+      "Real Time Analysis.",
+      "Advanced Visualizations.",
+      "Message Simulation.",
+      "Deep Analysis.",
+      "Keyword Cloud.",
+      "AI Usage.",
+      "Personalization.",
+      "Intuitive Interface."
+    ],
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node Js",
+      "JavaScript",
+      "Chart Js",
+      "D3Js",
+      "Victory Native",
+      "Gemmi"
+    ],
+    "image": "https://i.ibb.co/B2Dm8y9/chat-vist.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/B2Dm8y9/chat-vist.webp",
+      "https://i.ibb.co/V98Z5j8/chat-vist-2.webp",
+      "https://i.ibb.co/BTq08Tp/chat-vist-3.webp",
+      "https://i.ibb.co/bNSBLhL/chat-vist-4.webp",
+      "https://i.ibb.co/THdYcXw/chat-vist-5.webp"
+    ],
+    "link": "https://graficador-chatvis.vercel.app",
+    "id": "b652c991-dba8-4ff0-860a-47792d7470af",
+    "createdAt": "2024-3-15 19:23"
+  },
+  {
+    "title": "MedManagerHub",
+    "description": "Manage your patients efficiently and securely with my website. With features such as adding, removing, and updating patients, as well as the ability to modify your data and change the password, we keep your medical records organized and up to date.",
+    "caracteristicas": [
+      "Add new patients to the system.",
+      "Delete existing patients as needed.",
+      "Secure and easy password change..",
+      "Password recovery via email to facilitate secure access.",
+      "Update user data, such as contact information or address.",
+      "Update patient information, such as personal data, medical history, etc.",
+      "User Management"
+    ],
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node Js",
+      "JavaScript",
+      "Brevo",
+      "Nodemailer"
+    ],
+    "image": "https://i.ibb.co/0q67Js7/admin-pacientes-1.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/0q67Js7/admin-pacientes-1.webp",
+      "https://i.ibb.co/KNKhnVG/admin-pacientes-2.webp",
+      "https://i.ibb.co/vJ4m8GT/admin-pacientes-3.webp"
+    ],
+    "link": "https://panel-administraicion-pacientes.vercel.app",
+    "id": "67fc242b-3d5b-42de-8cdb-03a851855bb7",
+    "createdAt": "2024-3-15 19:51"
+  },
+  {
+    "title": "Sneakers",
+    "description": "A online shoe store, where you will find a wide selection of the latest fashion sneakers for the whole family! Explore our product catalog, which includes a variety of brands, styles, and sizes to meet your footwear needs. From casual sneakers to high-tech sports models, we have everything you need to look great and feel comfortable on any occasion.",
+    "caracteristicas": [
+      "Catalog of Products.",
+      "Wide variety of sneakers for men, women, and children.",
+      "Product Details,",
+      "High-quality images of each pair of sneakers from different angles.",
+      "Detailed descriptions, materials, features, and shoe care.",
+      "Shopping Cart.",
+      "Functionality to add to the shopping cart quickly and easily.",
+      "Clear display of cart contents and option to modify quantity or delete products.",
+      "Special offers section and highlighted discounts on selected products."
+    ],
+    "tecnologies": [
+      "Html",
+      "Css",
+      "JavaScript"
+    ],
+    "image": "https://i.ibb.co/LN8gRcv/tienda-1.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/ScShLMj/tienda-1.webp",
+      "https://i.ibb.co/ScShLMj/tienda-2.webp",
+      "https://i.ibb.co/J33g0BX/tienda-3.webp",
+      "https://i.ibb.co/ZKHpqqf/tienda-4.webp",
+      "https://i.ibb.co/TR5FRgf/tienda-5.webp"
+    ],
+    "link": "https://e-commerce-ejercicio.netlify.app",
+    "id": "44a91318-71d8-4f7a-8221-0513a1f7d1f9",
+    "createdAt": "2024-3-16 0:9"
+  },
+  {
+    "title": "Sneakers",
+    "description": "A form validator and membership process. On this platform, you can enter your personal information, select a membership plan that suits your needs, and easily complete the registration process. Our intuitive interface will guide you step by step, ensuring that each field is completed correctly before moving on to the next section. Once you have entered your information and selected your plan, you will receive detailed information about the benefits of each membership. Finally, you will complete the registration process with total confidence and security.",
+    "caracteristicas": [
+      "Real-Time Validation.",
+      "Guided Process.",
+      "Plan Selection.",
+      "Detailed Information.",
+      "Mobile Compatibility.",
+      "Continuous Process Flow.",
+      "Option to go back without losing current data."
+    ],
+    "tecnologies": [
+      "Html",
+      "Css",
+      "JavaScript"
+    ],
+    "image": "https://i.ibb.co/GPTCT5p/mutifrom-1.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/Tv0991W/mutifrom-1.webp",
+      "https://i.ibb.co/Tv0991W/mutifrom-2.webp",
+      "https://i.ibb.co/P9WZ9CL/mutifrom-3.webp",
+      "https://i.ibb.co/P9WZ9CL/mutifrom-3.webp",
+      "https://i.ibb.co/fxnbjbP/mutifrom-4.webp",
+      "https://i.ibb.co/0rS4qJQ/mutifrom-5.webp",
+      "https://i.ibb.co/tqLgsm0/mutifrom-6.webp",
+      "https://i.ibb.co/wRwPsNz/mutifrom-7.webp",
+      "https://i.ibb.co/KD0NqhF/mutifrom-8.webp"
+    ],
+    "link": "https://multi-form-page.netlify.app",
+    "id": "2c6f06af-8e31-4fed-ad02-0a4e1d5e1899",
+    "createdAt": "2024-3-16 0:55"
+  },
+  {
+    "title": "Hogar Perfecto",
+    "description": "A reliable site in home maintenance services, dedicated to making your life easier and your home more comfortable. On its homepage, you will find detailed information about who they are, the services they offer, and the available plans to meet your needs. In addition, you are provided with a clear location so you can easily find us and take advantage of their services wherever you are.",
+    "caracteristicas": [
+      "Information of the Company.",
+      "Location",
+      "Services.",
+      "Available Plans.",
+      "Complete list of maintenance services.",
+      "Testimonials.",
+      "Contact.",
+      "Blog or Resources",
+      "Sign up."
+    ],
+    "tecnologies": [
+      "Html",
+      "Css",
+      "JavaScript"
+    ],
+    "image": "https://i.ibb.co/wQDBWSb/hogar-1.webp",
+    "imagenesProyect": [
+      "https://i.ibb.co/wQDBWSb/hogar-1.webp",
+      "https://i.ibb.co/KhBG7hx/hogar-2.webp",
+      "https://i.ibb.co/gWw3gtr/hogar-3.webp",
+      "https://i.ibb.co/6JdJk1m/hogar-4.webp",
+      "https://i.ibb.co/ZVXSdVq/hogar-5.webp",
+      "https://i.ibb.co/F8rZ0yH/hogar-6.webp",
+      "https://i.ibb.co/qMJYMXh/hogar-7.webp"
+    ],
+    "link": "https://hogar-perfecto.netlify.app",
+    "id": "d815f9b3-67c4-436b-a385-6f294c85c2b7",
+    "createdAt": "2024-3-16 1:7"
+  }
+]
