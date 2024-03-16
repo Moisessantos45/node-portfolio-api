@@ -7,7 +7,10 @@ const app = express();
 app.use(express.json());
 dotenv.config();
 
-const alloweOrigins = [process.env.HOST_BACKEND_URL];
+const alloweOrigins = [
+  process.env.HOST_BACKEND_URL,
+  process.env.HOST_BACKEND_URL_MODIFY,
+];
 
 const corsOptions = {
   origin: function (origin: any, callback: Function) {
