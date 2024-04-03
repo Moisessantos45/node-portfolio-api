@@ -1,4 +1,41 @@
 [
+{
+    "title": "DocExtract",
+    "description": "A website specializing in a variety of document and graphic processing services. The site offers solutions for extracting text from PDF and Word files, converting SVG graphics to image formats, and extracting images from Word documents.",
+    "tecnologies": [
+      "React",
+      "TailwindCss",
+      "Node js",
+      "TypeScript"
+    ],
+    "caracteristicas": [
+      "Text extraction from PDF and Word files.",
+      "Conversion of SVG graphics to image formats.",
+      "Conversion of images to PDF and Word files.",
+      "Extraction of images from Word documents.",
+	  "Optimization of images of different sizes.",
+      "Simultaneous upload of multiple files.",
+      "Download of processed files in a ZIP archive.",
+      "Support for multiple simultaneous users."
+    ],
+    "image": "https://i.ibb.co/2tLBznB/extractor-1.png",
+    "imagenesProyect": [
+      "https://i.ibb.co/hHV11gV/extractor-2.webp",
+      "https://i.ibb.co/0mFv7Dm/extractor-3.webp",
+      "https://i.ibb.co/4tLC181/extractor-4.webp",
+      "https://i.ibb.co/0Vt9G0Z/extractor-5.webp",
+      "https://i.ibb.co/pzYQWys/extractor-6.webp",
+      "https://i.ibb.co/SJktMZp/extractor-7.webp",
+      "https://i.ibb.co/c2ys2Nv/extractor-8.webp",
+      "https://i.ibb.co/L92J1Nj/extractor-9.webp",
+      "https://i.ibb.co/bzKMsQn/extractor-10.webp",
+      "https://i.ibb.co/0YFqHWK/extractor-11.webp",
+      "https://i.ibb.co/kqnb06C/extractor-12.webp"
+    ],
+    "link": "https://proyect-multiservices.vercel.app",
+    "id": "5f5216a7-2dfd-419b-8771-4afadefbca12",
+    "createdAt": "2024-3-8 19:24"
+  },
   {
     "title": "ImageOptiWeb",
     "description": "Optimizer and converter of images to WebP format for faster loading and saving space without compromising quality. Our advanced compression technology ensures that your images are lighter, maintaining sharpness and details.",
@@ -25,43 +62,7 @@
     "link": "https://api-img-bb-convert-links-frontend.vercel.app",
     "id": "f9d7f26f-d289-42c3-b4f1-b500ba77eacd",
     "createdAt": "2024-3-8 16:9"
-  },
-  {
-    "title": "DocExtract",
-    "description": "A website specializing in a variety of document and graphic processing services. The site offers solutions for extracting text from PDF and Word files, converting SVG graphics to image formats, and extracting images from Word documents.",
-    "tecnologies": [
-      "React",
-      "TailwindCss",
-      "Node js",
-      "TypeScript"
-    ],
-    "caracteristicas": [
-      "Text extraction from PDF and Word files.",
-      "Conversion of SVG graphics to image formats.",
-      "Conversion of images to PDF and Word files.",
-      "Extraction of images from Word documents.",
-      "Simultaneous upload of multiple files.",
-      "Download of processed files in a ZIP archive.",
-      "Support for multiple simultaneous users."
-    ],
-    "image": "https://i.ibb.co/2tLBznB/extractor-1.png",
-    "imagenesProyect": [
-      "https://i.ibb.co/hHV11gV/extractor-2.webp",
-      "https://i.ibb.co/0mFv7Dm/extractor-3.webp",
-      "https://i.ibb.co/4tLC181/extractor-4.webp",
-      "https://i.ibb.co/0Vt9G0Z/extractor-5.webp",
-      "https://i.ibb.co/pzYQWys/extractor-6.webp",
-      "https://i.ibb.co/SJktMZp/extractor-7.webp",
-      "https://i.ibb.co/c2ys2Nv/extractor-8.webp",
-      "https://i.ibb.co/L92J1Nj/extractor-9.webp",
-	  "https://i.ibb.co/bzKMsQn/extractor-10.webp",
-	  "https://i.ibb.co/0YFqHWK/extractor-11.webp",
-	  "https://i.ibb.co/kqnb06C/extractor-12.webp"
-    ],
-    "link": "https://proyect-multiservices.vercel.app",
-    "id": "5f5216a7-2dfd-419b-8771-4afadefbca12",
-    "createdAt": "2024-3-8 19:24"
-  },
+  },  
   {
     "title": "UnderowordLiellaNovels",
     "description": "This site offers a wide variety of light novels for your enjoyment, it also provides a complete and easy-to-use administration panel. With the panel, you can upload, modify, and delete novels, manage users, change the content of the website, and adjust the site settings to your liking.",
@@ -71,13 +72,13 @@
       "Administration panel.",
       "User management.",
       "Management of administrators and collaborators.",
-	  "Upload files to Mega.",
-	  "Upload images to the ImageOptiWeb Api.",
-	  "Route protection.",
-	  "Activity notifications on the website via email to the group creator.",
-	  "Permission management for site members.",
-	  "Recommendation system.",
-	  "Session timer."
+      "Upload files to Mega.",
+      "Upload images to the ImageOptiWeb Api.",
+      "Route protection.",
+      "Activity notifications on the website via email to the group creator.",
+      "Permission management for site members.",
+      "Recommendation system.",
+      "Session timer."
     ],
     "tecnologies": [
       "React",
@@ -101,9 +102,9 @@
       "https://i.ibb.co/PFPcfJ2/underword-10.webp",
       "https://i.ibb.co/64LTSDy/underword-11.webp",
       "https://i.ibb.co/rGrH9G6/underword-12.webp",
-	  "https://i.ibb.co/bJBrQnB/underword-13.webp",
-	  "https://i.ibb.co/2M972Dp/underword-14.webp",
-	  "https://i.ibb.co/dcmnnkN/underword-15.webp"
+      "https://i.ibb.co/bJBrQnB/underword-13.webp",
+      "https://i.ibb.co/2M972Dp/underword-14.webp",
+      "https://i.ibb.co/dcmnnkN/underword-15.webp"
     ],
     "link": "https://underword-liella-novels.vercel.app/",
     "id": "658bdcdc-b4e4-487d-a64d-40aa712a885a",
@@ -147,6 +148,44 @@
     "link": "https://shigatsu-translations.vercel.app",
     "id": "5e74525d-5b6e-4cb4-a1ea-97070ec9702b",
     "createdAt": "2024-3-15 19:5"
+  },
+  {
+    "title": "BodaGlam",
+    "description": "BodaGlam is your comprehensive platform for managing and viewing posts related to weddings and glamorous events. With a powerful API on the backend, our platform offers two distinct but complementary interfaces: one created in Astro for a smooth and attractive post viewing experience, and another developed in React for complete account and post management.",
+    "caracteristicas": [
+      "Filter and search posts by categories.",
+      "Enjoy fast and seamless navigation between posts.",
+      "React interface for Account and Posts Management.",
+      "Sign up and access your BodaGlam account to manage your posts and user profile.",
+      "Publish, update, delete, and change the status of your posts easily and quickly.",
+      "Manage your user profile, update your personal information, change your password, and more.",
+      "Use of JsonWebTokens for authentication and route protection.",
+      "Security and Privacy.",
+      "Powerful Backend API",
+      "We use the BodaGlam API on the backend to provide updated data and ensure a seamless experience in both viewing and managing posts.",
+      "Intuitive User Experience.",
+      "Intuitive and easy-to-use user interface design on both interfaces."
+    ],
+    "tecnologies": [
+      "React",
+      "Css",
+      "JavaScript",
+      "TypeScript",
+      "Astro",
+      "Node js",
+      "TailwindCss",
+      "Socket IO",
+      "JWT",
+      "MongoDb",
+	  "Zustand"
+    ],
+    "image": "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/rfyccny5mswwu4ecnp4p.png",
+    "imagenesProyect": [
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/grt8iv4uevb5sv22qbt5.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/iyctysid8deihp3vn5wp.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/n6qboncizagcjrdfockx.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/xkwqapavpq0uiuyrw34p.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/lgwacmibgsmxq5bdreae.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/um8orkgi2xbmv5qcdx4z.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/sinowdagglzhlyynsdqo.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/se9p7n6xdelrpwsioplm.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/t0gshxymtdymqt8koet4.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/llrgxrihg86g301xizzm.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ccm0uztuvqi5iw7gryvu.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ck9xl2pxicpkduihtmzi.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ztmext3dxoniwsxks0jx.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165852/bg_perfil/lqlsiaxvihmmzlfvzotm.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/rfyccny5mswwu4ecnp4p.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/yjyelblruitmfdninycu.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165858/bg_perfil/fc1jex7ynhbaawih8ukz.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165864/bg_perfil/fmtwkhc6fp02ylppimjq.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165856/bg_perfil/p1jqjyvojk0dul92jzhv.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165853/bg_perfil/s5ywzbuvkd3vjms3vqzh.png"
+    ],
+    "link": "https://boda-glam-posts.vercel.app",
+    "id": "6e174a15-f9c8-4cc6-a259-b6c76d681de0",
+    "createdAt": "2024-4-3 2:33"
   },
   {
     "title": "ChatVis",
@@ -245,7 +284,7 @@
     "createdAt": "2024-3-16 0:9"
   },
   {
-    "title": "Sneakers",
+    "title": "MultiFrom",
     "description": "A form validator and membership process. On this platform, you can enter your personal information, select a membership plan that suits your needs, and easily complete the registration process. Our intuitive interface will guide you step by step, ensuring that each field is completed correctly before moving on to the next section. Once you have entered your information and selected your plan, you will receive detailed information about the benefits of each membership. Finally, you will complete the registration process with total confidence and security.",
     "caracteristicas": [
       "Real-Time Validation.",
