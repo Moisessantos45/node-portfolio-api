@@ -1,19 +1,14 @@
 [
-{
+  {
     "title": "DocExtract",
     "description": "A website specializing in a variety of document and graphic processing services. The site offers solutions for extracting text from PDF and Word files, converting SVG graphics to image formats, and extracting images from Word documents.",
-    "tecnologies": [
-      "React",
-      "TailwindCss",
-      "Node js",
-      "TypeScript"
-    ],
+    "tecnologies": ["React", "TailwindCss", "Node js", "TypeScript"],
     "caracteristicas": [
       "Text extraction from PDF and Word files.",
       "Conversion of SVG graphics to image formats.",
       "Conversion of images to PDF and Word files.",
       "Extraction of images from Word documents.",
-	  "Optimization of images of different sizes.",
+      "Optimization of images of different sizes.",
       "Simultaneous upload of multiple files.",
       "Download of processed files in a ZIP archive.",
       "Support for multiple simultaneous users."
@@ -39,12 +34,7 @@
   {
     "title": "ImageOptiWeb",
     "description": "Optimizer and converter of images to WebP format for faster loading and saving space without compromising quality. Our advanced compression technology ensures that your images are lighter, maintaining sharpness and details.",
-    "tecnologies": [
-      "React",
-      "TailwindCss",
-      "Node js",
-      "JavaScript"
-    ],
+    "tecnologies": ["React", "TailwindCss", "Node js", "JavaScript"],
     "caracteristicas": [
       "Quick conversion to WebP format.",
       "Efficient compression without loss of quality.",
@@ -62,7 +52,7 @@
     "link": "https://api-img-bb-convert-links-frontend.vercel.app",
     "id": "f9d7f26f-d289-42c3-b4f1-b500ba77eacd",
     "createdAt": "2024-3-8 16:9"
-  },  
+  },
   {
     "title": "UnderowordLiellaNovels",
     "description": "This site offers a wide variety of light novels for your enjoyment, it also provides a complete and easy-to-use administration panel. With the panel, you can upload, modify, and delete novels, manage users, change the content of the website, and adjust the site settings to your liking.",
@@ -150,6 +140,60 @@
     "createdAt": "2024-3-15 19:5"
   },
   {
+    "title": "Precision Industrial",
+    "description": "A website responsible for displaying the parts that the industrial company has and can build, as well as materials that they can produce. It can be managed by both clients and the company, allowing them to request parts, quotes, and invoices from both parties.",
+    "caracteristicas": [
+      "Request Invoices.",
+      "Request Quotes.",
+      "Make Parts Requests.",
+      "Cancel Requests.",
+      "Download invoices, quotes.",
+      "Active Sessions.",
+      "Route Protection.",
+      "Use of JsonWebTokens.",
+      "Manage Requests.",
+      "Manage Quotes.",
+      "Delete, edit, cancel.",
+      "Update data.",
+      "Delete your account.",
+      "Upload PDF files.",
+      "Protection of options and processes in the frontend."
+    ],
+    "tecnologies": [
+      "React",
+      "Css",
+      "JavaScript",
+      "TypeScript",
+      "TailwindCss",
+      "Postgresql",
+      "React-Query",
+      "Zustand",
+      "file-saver",
+      "JWT",
+      "Multer",
+      "Node Js"
+    ],
+    "image": "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530793/bg_perfil/vkvlg5qmsijd9lsz1bsu.png",
+    "imagenesProyect": [
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530793/bg_perfil/vkvlg5qmsijd9lsz1bsu.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530792/bg_perfil/ckcdkjigkuhcai788z64.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530793/bg_perfil/msswnrchgtox83mtmlc6.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530793/bg_perfil/r4lwhamwmixiqx1u1w37.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530790/bg_perfil/l2eshkmdvianpfrzddns.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530790/bg_perfil/moly3emqdhoujztfrau2.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530790/bg_perfil/ch4aznptjdqmahup9uii.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530794/bg_perfil/xxdyjrptz1ytmubpcon6.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530792/bg_perfil/rpenap6uwoxfgcrunifs.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530794/bg_perfil/r5ev6dcywd6qosfnxri3.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530793/bg_perfil/vryaxebhhiz0bolsduel.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530793/bg_perfil/gbqwkk6dvv2mz96rc7or.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1717530796/bg_perfil/ng4cnstbnkfx0t17n9ek.png"
+    ],
+    "link": "",
+    "id": "4d88b80f-5a84-49f1-ad19-17fef0ee5f88",
+    "createdAt": "2024-6-4 14:9"
+  },
+  {
     "title": "BodaGlam",
     "description": "BodaGlam is your comprehensive platform for managing and viewing posts related to weddings and glamorous events. With a powerful API on the backend, our platform offers two distinct but complementary interfaces: one created in Astro for a smooth and attractive post viewing experience, and another developed in React for complete account and post management.",
     "caracteristicas": [
@@ -177,11 +221,30 @@
       "Socket IO",
       "JWT",
       "MongoDb",
-	  "Zustand"
+      "Zustand"
     ],
     "image": "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/rfyccny5mswwu4ecnp4p.png",
     "imagenesProyect": [
-      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/grt8iv4uevb5sv22qbt5.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/iyctysid8deihp3vn5wp.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/n6qboncizagcjrdfockx.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/xkwqapavpq0uiuyrw34p.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/lgwacmibgsmxq5bdreae.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/um8orkgi2xbmv5qcdx4z.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/sinowdagglzhlyynsdqo.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/se9p7n6xdelrpwsioplm.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/t0gshxymtdymqt8koet4.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/llrgxrihg86g301xizzm.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ccm0uztuvqi5iw7gryvu.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ck9xl2pxicpkduihtmzi.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ztmext3dxoniwsxks0jx.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165852/bg_perfil/lqlsiaxvihmmzlfvzotm.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/rfyccny5mswwu4ecnp4p.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/yjyelblruitmfdninycu.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165858/bg_perfil/fc1jex7ynhbaawih8ukz.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165864/bg_perfil/fmtwkhc6fp02ylppimjq.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165856/bg_perfil/p1jqjyvojk0dul92jzhv.png","https://res.cloudinary.com/dtkskpitc/image/upload/v1712165853/bg_perfil/s5ywzbuvkd3vjms3vqzh.png"
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/grt8iv4uevb5sv22qbt5.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/iyctysid8deihp3vn5wp.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/n6qboncizagcjrdfockx.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/xkwqapavpq0uiuyrw34p.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/lgwacmibgsmxq5bdreae.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/um8orkgi2xbmv5qcdx4z.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/sinowdagglzhlyynsdqo.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165850/bg_perfil/se9p7n6xdelrpwsioplm.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/t0gshxymtdymqt8koet4.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/llrgxrihg86g301xizzm.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ccm0uztuvqi5iw7gryvu.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ck9xl2pxicpkduihtmzi.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165851/bg_perfil/ztmext3dxoniwsxks0jx.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165852/bg_perfil/lqlsiaxvihmmzlfvzotm.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/rfyccny5mswwu4ecnp4p.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165854/bg_perfil/yjyelblruitmfdninycu.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165858/bg_perfil/fc1jex7ynhbaawih8ukz.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165864/bg_perfil/fmtwkhc6fp02ylppimjq.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165856/bg_perfil/p1jqjyvojk0dul92jzhv.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712165853/bg_perfil/s5ywzbuvkd3vjms3vqzh.png"
     ],
     "link": "https://boda-glam-posts.vercel.app",
     "id": "6e174a15-f9c8-4cc6-a259-b6c76d681de0",
@@ -221,6 +284,34 @@
     "link": "https://graficador-chatvis.vercel.app",
     "id": "b652c991-dba8-4ff0-860a-47792d7470af",
     "createdAt": "2024-3-15 19:23"
+  },
+  {
+    "title": "AnimeSphere",
+    "description": "Welcome to AnimeSphere, the website dedicated to all anime fans. Here you will find an extensive collection of seasonal and classic anime, accompanied by the latest news and updates from the world of anime. Explore detailed profiles of your favorite series, enjoy personalized recommendations, and stay up to date with the latest releases. Join our community and share your passion for anime in a space created just for you.",
+    "caracteristicas": [
+      "Seasonal anime.",
+      "Allows writing comments on each anime.",
+      "Watch the corresponding episodes.",
+      "Know the current news.",
+      "Shows the top anime.",
+      "New or upcoming anime.",
+      "Anime and manga recommendations."
+    ],
+    "tecnologies": ["Astro", "Css", "JavaScript", "TypeScript", "TailwindCss"],
+    "image": "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277156/bg_perfil/w4ru9iqklcf3zgppp074.png",
+    "imagenesProyect": [
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277156/bg_perfil/w4ru9iqklcf3zgppp074.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277155/bg_perfil/nydereecmwbq4dtma0dq.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277154/bg_perfil/rvwz6eoswqlyp3gvjjtr.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277154/bg_perfil/xp70ihxahuuydy2sqe1o.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277153/bg_perfil/kmg5bibxzz9qxiayhznr.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277153/bg_perfil/qzju5u39colqmn5qbpgq.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277155/bg_perfil/pgiqrnie1q4erxv3mtjz.png",
+      "https://res.cloudinary.com/dtkskpitc/image/upload/v1712277155/bg_perfil/h3jnqxyhgvgo1bashspb.png"
+    ],
+    "link": "https://anime-sphere-phi.vercel.app",
+    "id": "987875d1-ed1c-4c23-8b9c-b15b267c1207",
+    "createdAt": "2024-6-4 13:34"
   },
   {
     "title": "MedManagerHub",
@@ -266,11 +357,7 @@
       "Clear display of cart contents and option to modify quantity or delete products.",
       "Special offers section and highlighted discounts on selected products."
     ],
-    "tecnologies": [
-      "Html",
-      "Css",
-      "JavaScript"
-    ],
+    "tecnologies": ["Html", "Css", "JavaScript"],
     "image": "https://i.ibb.co/LN8gRcv/tienda-1.webp",
     "imagenesProyect": [
       "https://i.ibb.co/ScShLMj/tienda-1.webp",
@@ -295,11 +382,7 @@
       "Continuous Process Flow.",
       "Option to go back without losing current data."
     ],
-    "tecnologies": [
-      "Html",
-      "Css",
-      "JavaScript"
-    ],
+    "tecnologies": ["Html", "Css", "JavaScript"],
     "image": "https://i.ibb.co/GPTCT5p/mutifrom-1.webp",
     "imagenesProyect": [
       "https://i.ibb.co/Tv0991W/mutifrom-1.webp",
@@ -330,11 +413,7 @@
       "Blog or Resources",
       "Sign up."
     ],
-    "tecnologies": [
-      "Html",
-      "Css",
-      "JavaScript"
-    ],
+    "tecnologies": ["Html", "Css", "JavaScript"],
     "image": "https://i.ibb.co/wQDBWSb/hogar-1.webp",
     "imagenesProyect": [
       "https://i.ibb.co/wQDBWSb/hogar-1.webp",
