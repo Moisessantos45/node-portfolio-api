@@ -1,3 +1,8 @@
+interface TypeLinks {
+  frontend: string;
+  backend: string;
+}
+
 interface TypeProyects {
   id: string;
   title: string;
@@ -8,6 +13,7 @@ interface TypeProyects {
   imagenesProyect: string[];
   link: string;
   createdAt: string;
+  link_gitHub:TypeLinks;
 }
 
 export { TypeProyects };
