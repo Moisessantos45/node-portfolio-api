@@ -1,10 +1,9 @@
-import express from "express";
-import router from "./Router";
-import cors from "cors";
+import Fastify from "fastify";
+import cors from "@fastify/cors";
 import dotenv from "dotenv";
+import api from "./infrastructure/api";
 
-const app = express();
-app.use(express.json());
+const fastify = Fastify({ logger: true });
 dotenv.config();
 
 const alloweOrigins = [
@@ -12,7 +11,7 @@ const alloweOrigins = [
   process.env.HOST_BACKEND_URL_MODIFY,
 ];
 
-const corsOptions = {
+fastify.register(cors, {
   origin: function (origin: any, callback: Function) {
     if (alloweOrigins.indexOf(origin) !== -1) {
       callback(null, true);
@@ -20,14 +19,20 @@ const corsOptions = {
       callback(null, false);
     }
   },
-};
-
-app.use(cors(corsOptions));
-
-app.use("/Api/1.0", router);
+});
 
 const PORT = process.env.PORT || 4000;
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+fastify.register(api, { prefix: "/Api/1.0" });
+const start = async () => {
+  try {
+    await fastify.listen({
+      port: 4000,
+    });
+    fastify.log.info(`Server is running on port ${PORT}`);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+start();
