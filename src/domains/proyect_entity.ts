@@ -15,6 +15,7 @@ interface TypeProyects {
   createdAt: string;
   link_gitHub: TypeLinks;
   status: string;
+  typeProyect: string;
 }
 
 interface TypeProyectsCreate {
@@ -29,6 +30,7 @@ interface TypeProyectsCreate {
   createdAt?: string;
   link_gitHub: string;
   status: string;
+  typeProyect: string;
 }
 
 export { TypeProyectsCreate, TypeProyects, TypeLinks };

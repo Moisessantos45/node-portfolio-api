@@ -31,7 +31,8 @@ const start = async () => {
     });
     fastify.log.info(`Server is running on port ${PORT}`);
   } catch (error) {
-    console.log(error);
+    fastify.log.error(error);
+    process.exit(1);
   }
 };
 

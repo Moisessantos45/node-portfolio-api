@@ -8,21 +8,35 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const repositorio_base_1 = require("../shared/repositorio_base");
 const model_1 = require("../shared/model");
+const dbConnection_1 = __importDefault(require("../shared/dbConnection"));
 class ProyectRepository extends repositorio_base_1.RepositorioBase {
     constructor() {
         super(model_1.Proyect, "id");
     }
     getProyects() {
         return __awaiter(this, void 0, void 0, function* () {
-            return this.findAll();
+            const consultViewQuery = `
+    SELECT * FROM v_Proyects;
+  `;
+            const [results] = yield dbConnection_1.default.query(consultViewQuery);
+            return results;
         });
     }
     getProyect(id) {
         return __awaiter(this, void 0, void 0, function* () {
-            return this.findById(id);
+            const consultViewQuery = `
+      SELECT * FROM v_Proyects WHERE id = :id;
+    `;
+            const [results] = yield dbConnection_1.default.query(consultViewQuery, {
+                replacements: { id },
+            });
+            return results[0];
         });
     }
     createProyect(proyect) {

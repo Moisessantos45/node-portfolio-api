@@ -19,6 +19,7 @@ export class Proyect
   public link_gitHub!: string;
   public createdAt!: string;
   public status!: string;
+  public typeProyect!: string;
 }
 
 Proyect.init(
@@ -29,6 +30,10 @@ Proyect.init(
       primaryKey: true,
     },
     title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    typeProyect: {
       type: DataTypes.STRING,
       allowNull: false,
     },
