@@ -19,6 +19,10 @@ Proyect.init({
         type: sequelize_1.DataTypes.STRING,
         allowNull: false,
     },
+    typeProyect: {
+        type: sequelize_1.DataTypes.STRING,
+        allowNull: false,
+    },
     description: {
         type: sequelize_1.DataTypes.STRING,
         allowNull: false,

@@ -21,6 +21,7 @@ const createProyectsView = () => __awaiter(void 0, void 0, void 0, function* () 
     SELECT
       id,
       title,
+      typeProyect,
       description,
       tecnologies,
       caracteristicas,

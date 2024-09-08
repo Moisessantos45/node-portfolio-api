@@ -42,7 +42,8 @@ const start = () => __awaiter(void 0, void 0, void 0, function* () {
         fastify.log.info(`Server is running on port ${PORT}`);
     }
     catch (error) {
-        console.log(error);
+        fastify.log.error(error);
+        process.exit(1);
     }
 });
 start();

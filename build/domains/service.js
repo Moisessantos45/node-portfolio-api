@@ -18,6 +18,7 @@ const fromToJsonMapResponse = (data) => {
     return {
         id: data["id"],
         title: data["title"],
+        typeProyect: data["typeProyect"],
         description: data["description"],
         image: data["image"],
         link: data["link"],
