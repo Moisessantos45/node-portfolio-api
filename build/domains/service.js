@@ -7,7 +7,7 @@ const generateDate = () => {
 };
 exports.generateDate = generateDate;
 const fromToJsonMap = (data) => {
-    return Object.assign(Object.assign({}, data), { caracteristicas: JSON.stringify(data.caracteristicas), tecnologies: JSON.stringify(data.tecnologies), imagenesProyect: JSON.stringify(data.imagenesProyect), link_gitHub: JSON.stringify(data.link_gitHub), createdAt: generateDate() });
+    return Object.assign(Object.assign({}, data), { caracteristicas: JSON.stringify(data.caracteristicas), tecnologies: JSON.stringify(data.tecnologies), imagenesProyect: JSON.stringify(data.imagenesProyect), link_gitHub: JSON.stringify(data.link_gitHub), createdAt: generateDate(), counter_likes: 0 });
 };
 exports.fromToJsonMap = fromToJsonMap;
 const fromToJsonMapUpdate = (data) => {
@@ -28,6 +28,7 @@ const fromToJsonMapResponse = (data) => {
         tecnologies: JSON.parse(data.tecnologies),
         imagenesProyect: JSON.parse(data.imagenesProyect),
         link_gitHub: JSON.parse(data.link_gitHub),
+        counter_likes: data["counter_likes"],
     };
 };
 exports.fromToJsonMapResponse = fromToJsonMapResponse;

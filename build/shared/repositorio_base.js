@@ -38,6 +38,18 @@ class RepositorioBase {
             return affectedCount;
         });
     }
+    updateStatus(id, state) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const [affectedCount] = yield this.model.update({ status: state }, { where: { id } });
+            return affectedCount;
+        });
+    }
+    updateAtribute(id, value) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const [affectedCount] = yield this.model.update({ counter_likes: value }, { where: { id } });
+            return affectedCount;
+        });
+    }
     delete(id, state) {
         return __awaiter(this, void 0, void 0, function* () {
             const [affectedCount] = yield this.model.update({ status: state }, { where: { id } });

@@ -54,6 +54,34 @@ class ProyectService {
             return { success: true };
         });
     }
+    changeStateProyect(id, status) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (status !== "active" && status !== "inactive" && status !== "deleted") {
+                return { success: false, message: "Invalid status" };
+            }
+            const resul = yield this.proyectRepository.updateStateProyect(id, status);
+            if (!resul) {
+                return { success: false, message: "Proyect not updated" };
+            }
+            return { success: true, message: "Proyect updated" };
+        });
+    }
+    updateAtribute(id, count) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (typeof count !== "number" && Number.isNaN(Number(count))) {
+                return { success: false, message: "Count is not a number" };
+            }
+            const value = parseInt(count.toString());
+            if (value < 0) {
+                return { success: false, message: "Count is less than 0" };
+            }
+            const resul = yield this.proyectRepository.updateLikesCount(id, value);
+            if (!resul) {
+                return { success: false, message: "Proyect not updated" };
+            }
+            return { success: true };
+        });
+    }
     deleteProyect(id, state) {
         return __awaiter(this, void 0, void 0, function* () {
             const resul = yield this.proyectRepository.deleteProyect(id, state);

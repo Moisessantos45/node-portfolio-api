@@ -45,7 +45,6 @@ class ProyectService {
     message?: string;
   }> {
     const newProyect = fromToJsonMap(proyect);
-
     const resul = await this.proyectRepository.createProyect(newProyect);
     if (!resul) {
       return { success: false, message: "Proyect not created" };
@@ -63,6 +62,46 @@ class ProyectService {
   }> {
     const newProyect = fromToJsonMapUpdate(proyect);
     const resul = await this.proyectRepository.updateProyect(id, newProyect);
+    if (!resul) {
+      return { success: false, message: "Proyect not updated" };
+    }
+    return { success: true };
+  }
+
+  async changeStateProyect(
+    id: string,
+    status: string
+  ): Promise<{
+    success: boolean;
+    message: string;
+  }> {
+    if (status !== "active" && status !== "inactive" && status !== "deleted") {
+      return { success: false, message: "Invalid status" };
+    }
+    const resul = await this.proyectRepository.updateStateProyect(id, status);
+    if (!resul) {
+      return { success: false, message: "Proyect not updated" };
+    }
+    return { success: true, message: "Proyect updated" };
+  }
+
+  async updateAtribute(
+    id: string,
+    count: number
+  ): Promise<{
+    success: boolean;
+    message?: string;
+  }> {
+    if (typeof count !== "number" && Number.isNaN(Number(count))) {
+      return { success: false, message: "Count is not a number" };
+    }
+
+    const value = parseInt(count.toString());
+    if (value < 0) {
+      return { success: false, message: "Count is less than 0" };
+    }
+
+    const resul = await this.proyectRepository.updateLikesCount(id, value);
     if (!resul) {
       return { success: false, message: "Proyect not updated" };
     }

@@ -15,8 +15,14 @@ interface GetProyectRequestBodyAndRequest extends RouteGenericInterface {
   Params: { id: string };
 }
 
+interface UpdateCounterLikesRequestBody extends RouteGenericInterface {
+  Params: { id: string };
+  Querystring: { counter_likes: number };
+}
+
 export {
   GetProyectRequest,
   GetProyectRequestBody,
   GetProyectRequestBodyAndRequest,
+  UpdateCounterLikesRequestBody,
 };

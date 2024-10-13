@@ -9,6 +9,7 @@ dotenv.config();
 const alloweOrigins = [
   process.env.HOST_BACKEND_URL,
   process.env.HOST_BACKEND_URL_MODIFY,
+  process.env.HOST_FRONTEND_URL_ADMIN,
 ];
 
 fastify.register(cors, {
@@ -29,6 +30,7 @@ const start = async () => {
     await fastify.listen({
       port: 4000,
     });
+
     fastify.log.info(`Server is running on port ${PORT}`);
   } catch (error) {
     fastify.log.error(error);

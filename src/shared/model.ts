@@ -1,12 +1,12 @@
 import { DataTypes, Model } from "sequelize";
 import db from "./dbConnection";
-import { TypeProyectsCreate } from "../domains/proyect_entity";
+import { TypeProyectsFull } from "../domains/proyect_entity";
 
-interface ProyectsCreationAttributes extends TypeProyectsCreate {}
+interface ProyectsCreationAttributes extends TypeProyectsFull {}
 
 export class Proyect
-  extends Model<TypeProyectsCreate, ProyectsCreationAttributes>
-  implements TypeProyectsCreate
+  extends Model<TypeProyectsFull, ProyectsCreationAttributes>
+  implements TypeProyectsFull
 {
   public id!: string;
   public title!: string;
@@ -20,6 +20,7 @@ export class Proyect
   public createdAt!: string;
   public status!: string;
   public typeProyect!: string;
+  public counter_likes!: number;
 }
 
 Proyect.init(
@@ -73,10 +74,20 @@ Proyect.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    counter_likes: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+    },
   },
   {
     sequelize: db,
     modelName: "proyects",
     tableName: "proyects",
+    indexes: [
+      {
+        unique: true,
+        fields: ["id"],
+      },
+    ],
   }
 );

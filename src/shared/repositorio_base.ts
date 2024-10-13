@@ -28,6 +28,22 @@ export class RepositorioBase<T extends Model> {
     return affectedCount;
   }
 
+  async updateStatus(id: string, state: string): Promise<number> {
+    const [affectedCount] = await this.model.update(
+      { status: state },
+      { where: { id } as any }
+    );
+    return affectedCount;
+  }
+
+  async updateAtribute(id: string, value: number): Promise<number> {
+    const [affectedCount] = await this.model.update(
+      { counter_likes: value },
+      { where: { id } as any }
+    );
+    return affectedCount;
+  }
+
   async delete(id: string, state: string): Promise<number> {
     const [affectedCount] = await this.model.update(
       { status: state },

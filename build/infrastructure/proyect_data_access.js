@@ -39,6 +39,9 @@ class ProyectRepository extends repositorio_base_1.RepositorioBase {
             return results[0];
         });
     }
+    // async createProyect(proyect: Partial<Proyect>): Promise<boolean> {
+    //   return this.create(proyect).then(() => true);
+    // }
     createProyect(proyect) {
         return __awaiter(this, void 0, void 0, function* () {
             return this.create(proyect).then(() => true);
@@ -46,12 +49,26 @@ class ProyectRepository extends repositorio_base_1.RepositorioBase {
     }
     updateProyect(id, proyect) {
         return __awaiter(this, void 0, void 0, function* () {
-            return this.update(id, proyect).then(() => true);
+            const response = yield this.update(id, proyect);
+            return response > 0;
+        });
+    }
+    updateStateProyect(id, state) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const response = yield this.updateStatus(id, state);
+            return response > 0;
+        });
+    }
+    updateLikesCount(id, count) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const response = yield this.updateAtribute(id, count);
+            return response > 0;
         });
     }
     deleteProyect(id, state) {
         return __awaiter(this, void 0, void 0, function* () {
-            return this.delete(id, state).then(() => true);
+            const response = yield this.delete(id, state);
+            return response > 0;
         });
     }
 }

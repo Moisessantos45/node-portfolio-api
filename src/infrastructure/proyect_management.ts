@@ -4,6 +4,7 @@ import {
   GetProyectRequest,
   GetProyectRequestBody,
   GetProyectRequestBodyAndRequest,
+  UpdateCounterLikesRequestBody,
 } from "./types";
 
 class ProyectController {
@@ -52,6 +53,33 @@ class ProyectController {
     const id = request.params.id;
     const proyect = request.body;
     const result = await this.proyectService.updateProyect(id, proyect);
+    if (!result.success) {
+      return reply.code(400).send(result.message);
+    }
+    reply.code(200).send(result);
+  }
+
+  async updateLikesCount(
+    request: FastifyRequest<UpdateCounterLikesRequestBody>,
+    reply: FastifyReply
+  ) {
+    const id = request.params.id;
+    const count = request.query.counter_likes;
+    const result = await this.proyectService.updateAtribute(id, count);
+    if (!result.success) {
+      return reply.code(400).send(result.message);
+    }
+    reply.code(200).send(result);
+  }
+
+  async apiChangeStateProyect(
+    request: FastifyRequest<GetProyectRequest>,
+    reply: FastifyReply
+  ) {
+    const id = request.params.id;
+    const status = request.query.status;
+    const result = await this.proyectService.changeStateProyect(id, status);
+
     if (!result.success) {
       return reply.code(400).send(result.message);
     }

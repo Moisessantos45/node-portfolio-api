@@ -16,7 +16,8 @@ const createProyectsView = async () => {
       link,
       link_gitHub,
       createdAt,
-      status
+      status,
+      counter_likes
     FROM
       proyects;
   `;

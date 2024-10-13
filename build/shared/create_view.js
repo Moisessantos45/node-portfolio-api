@@ -30,7 +30,8 @@ const createProyectsView = () => __awaiter(void 0, void 0, void 0, function* () 
       link,
       link_gitHub,
       createdAt,
-      status
+      status,
+      counter_likes
     FROM
       proyects;
   `;

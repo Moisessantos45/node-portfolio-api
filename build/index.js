@@ -21,6 +21,7 @@ dotenv_1.default.config();
 const alloweOrigins = [
     process.env.HOST_BACKEND_URL,
     process.env.HOST_BACKEND_URL_MODIFY,
+    process.env.HOST_FRONTEND_URL_ADMIN,
 ];
 fastify.register(cors_1.default, {
     origin: function (origin, callback) {

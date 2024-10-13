@@ -53,6 +53,28 @@ class ProyectController {
             reply.code(200).send(result);
         });
     }
+    updateLikesCount(request, reply) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const id = request.params.id;
+            const count = request.query.counter_likes;
+            const result = yield this.proyectService.updateAtribute(id, count);
+            if (!result.success) {
+                return reply.code(400).send(result.message);
+            }
+            reply.code(200).send(result);
+        });
+    }
+    apiChangeStateProyect(request, reply) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const id = request.params.id;
+            const status = request.query.status;
+            const result = yield this.proyectService.changeStateProyect(id, status);
+            if (!result.success) {
+                return reply.code(400).send(result.message);
+            }
+            reply.code(200).send(result);
+        });
+    }
     deleteProyect(request, reply) {
         return __awaiter(this, void 0, void 0, function* () {
             const id = request.params.id;

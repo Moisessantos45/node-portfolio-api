@@ -15,6 +15,7 @@ const fromToJsonMap = (data: { [key: string]: any }): any => {
     imagenesProyect: JSON.stringify(data.imagenesProyect),
     link_gitHub: JSON.stringify(data.link_gitHub),
     createdAt: generateDate(),
+    counter_likes: 0,
   };
 };
 
@@ -24,7 +25,7 @@ const fromToJsonMapUpdate = (data: { [key: string]: any }): any => {
     caracteristicas: JSON.stringify(data.caracteristicas),
     tecnologies: JSON.stringify(data.tecnologies),
     imagenesProyect: JSON.stringify(data.imagenesProyect),
-    link_gitHub: JSON.stringify(data.link_gitHub),
+    link_gitHub: JSON.stringify(data.link_gitHub)
   };
 };
 
@@ -42,6 +43,7 @@ const fromToJsonMapResponse = (data: { [key: string]: any }): TypeProyects => {
     tecnologies: JSON.parse(data.tecnologies),
     imagenesProyect: JSON.parse(data.imagenesProyect),
     link_gitHub: JSON.parse(data.link_gitHub),
+    counter_likes: data["counter_likes"],
   };
 };
 

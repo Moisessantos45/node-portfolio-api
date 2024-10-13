@@ -59,8 +59,18 @@ Proyect.init({
         type: sequelize_1.DataTypes.STRING,
         allowNull: false,
     },
+    counter_likes: {
+        type: sequelize_1.DataTypes.INTEGER,
+        defaultValue: 0,
+    },
 }, {
     sequelize: dbConnection_1.default,
     modelName: "proyects",
     tableName: "proyects",
+    indexes: [
+        {
+            unique: true,
+            fields: ["id"],
+        },
+    ],
 });
